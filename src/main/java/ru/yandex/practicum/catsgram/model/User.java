@@ -7,7 +7,6 @@ import java.time.Instant;
 public class User {
     Long id;
     String username;
-    @lombok.NonNull
     String email;
     String password;
     Instant registrationDate;
